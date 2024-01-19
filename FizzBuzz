@@ -1,0 +1,12 @@
+print('Welcome to FizzBuzz!')
+num = int(input('Type a number from between 1-100 (inclusive)'))
+
+fizzbuzz = ''
+
+if num % 3 == 0:
+    fizzbuzz += 'Fizz'
+
+if num % 4 == 0:
+    fizzbuzz += 'Buzz'
+
+print(fizzbuzz,'!')
